@@ -1,0 +1,38 @@
+/* Colors */
+  --color-primary: #be9278;
+  --color-primary-light: #c6a16e;
+  --color-secondary: #101a31;
+  --color-secondary-light: #10285d;
+  --color-text: #101A31;
+  --color-text-light: #fff;
+  --color-bg-light: #fff;
+  --color-gray-light: #f7f7f7;
+  --color-bg-pink: #f2e1d9;
+  --color-border: #eee;
+  --color-hero-gradient: to right, rgba(16, 26, 48, 0.7) 0%, rgba(16, 26, 48, 0.7) 12%, #101a31 91%, #101a31 100%;
+  --color-button-gradient: to left, #c79f88, #b6876b, #b6876b;
+
+  /* Font Families */
+  --font-primary: "Montserrat", sans-serif;
+  --font-heading: "Josefin Sans", sans-serif;
+
+  /* Font Sizes */
+  --fs-base: 1rem;  		/* 16px */
+  --fs-xs: 0.875rem; 		/* 14px */
+  --fs-small: 0.938rem;		/* 15px */
+  --fs-medium: 1.125rem;	/* 18px */
+  --fs-large: 1.875rem;		/* 30px */
+  --fs-xl: 3.5rem;		/* 56px */
+  --fs-xxl: 4.75rem;		/* 76px */
+
+  /* Spacing */
+  --spacing-xs: 15px;
+  --spacing-sm: 25px;
+  --spacing-md: 30px;
+  --spacing-lg: 45px;
+  --spacing-xl: 60px;
+  --spacing-xxl: 85px;
+
+  /* Sizes */
+  --button-padding: 32px 65px;
+  --border-radius: 4px;
