@@ -1,6 +1,14 @@
 # Programming Materials
 
-# Programming_Materials 🚀
+## 👋 About This Repository
+
+This repository represents my **Full-Stack learning journey**.
+It includes structured materials, hands-on practice, and real projects
+built using modern frontend and backend technologies.
+
+The goal is to demonstrate **strong fundamentals, clean code, and real-world application**.
+
+---
 
 A complete **Full-Stack learning repository** that contains structured programming materials, practical examples, and real projects.  
 This repo is designed to help developers **learn step by step** and apply concepts through hands-on projects.
