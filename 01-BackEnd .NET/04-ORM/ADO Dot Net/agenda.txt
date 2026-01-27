@@ -1,0 +1,29 @@
+01. ADO Dot Net : 
+
+Part 01 : Connected Architecture:
+
+Agenda
+Type of modes
+What is ADO.NET
+Architecture Overview
+Core Components
+Connection Management
+Data Providers
+Working with Commands
+DataReader vs DataSet
+DataAdapter
+Working with Transactions
+Best Practices
+Common Patterns
+Error Handling
+Summary
+
+---
+
+Part 02 : Disconnected Architecture:
+Understanding Disconnected Architecture
+Core Components (DataSet, DataTable, DataAdapter)
+How Data Flow Works
+Practical Examples
+Best Practices
+When to Use vs Connected Architecture

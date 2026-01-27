@@ -1,0 +1,254 @@
+Day 01 : 
+1. [Comments]
+2. [Variables & Data Types]
+3. [Value Types vs Reference Types]
+4. [String Formatting]
+5. [Arrays]
+6. [Type Conversion]
+
+---
+
+Day 02 
+
+-------------------------------------
+
+
+-------------------------------------
+
+Day 04 : 
+# #Agenda 
+
+### Day 04 - Part 01 : 
+1. [[Properties]]
+2. [[Object Initialization]]
+3. [[Constructors]]
+4. [[Struct vs Class]]
+5. [[Destructors (Finalizers)]]
+6. [[Method Signature vs Method Header]]
+
+### Day 04 - Part 02 : 
+
+1. [[Object Class|Object Class]]
+2. [[Struct vs Class|Struct vs Class]]
+3. [[Properties in C#|Properties]]
+4. [[ToString Method|ToString Method]]
+5. [[Equals Method|Equals Method]]
+6. [[لأetHashCode Method|GetHashCode Method]]
+7. [[GetType Method|GetType Method]]
+8. [[Boxing and Unboxing|Boxing and Unboxing]]
+--------------------------------------------------------------
+Day 05 : 
+
+Part 01 : 
+### #Agenda 
+
+1. [[Pass By Value vs Pass By Reference]]
+2.  The `out` Keyword
+3. The `in` Keyword
+4. Method Overloading
+5. Default Parameters (Optional Parameters)
+6.  Named Parameters
+7. The `params` Keyword
+8. Structs vs Classes
+9. Properties (Auto-Implemented)
+10. Constructor Overloading
+11. Overriding `ToString()` Method
+12. String Interpolation
+13. Regions (`#region` directive)
+
+Part 02 : 
+
+### #Agenda 
+
+1. C# Exception Handling
+2. The Exception Hierarchy
+3. Try-Catch-Finally Block
+4. Catch Blocks - Multiple Exception Handling
+5. The Exception Object
+6. The Finally Block
+7. Custom Exceptions
+8. Throwing Exceptions
+9. Property Validation with Exceptions
+10. Exception Handling Best Practices
+11. Exception Propagation
+12. Advanced Exception Handling Patterns
+13. When NOT to Use Exceptions
+
+--------------------------------------------------------------
+
+Day 06 : 
+
+Part 01 : 
+
+### #Agenda 
+
+1. Checked and Unchecked Contexts
+2. Parse vs TryParse
+3. Type Checking: `is` and `as` Operators
+4. Overriding `Equals()` Method
+5. Nullable Types
+6. Nullable Reference Types (C# 8.0+)
+7. Null-Conditional Operators
+8. Null-Coalescing Operators
+9. Ternary (Conditional) Operator
+10. Enumerations (Enums)
+11. Flags Enums (Bitwise Enums)
+12. Advanced Enum Concepts
+13. Putting It All Together - Real-World Example
+
+Part 02 :
+ 
+### #Agenda 
+
+1. The `this` Keyword
+2. Constructor Chaining with `this`
+3. Other Uses of `this`
+4. Static Members
+5. Static Methods
+6. Static Classes
+7. Static Constructors
+8. Static vs Instance Members Comparison
+9. Practical Examples
+10. Best Practices
+
+
+--------------------------------------------------------------
+Day 07 : 
+
+Part 01 : 
+
+### #Agenda 
+
+1. Operator Overloading
+2. Binary Operator Overloading
+3. Unary Operator Overloading
+4. Comparison Operator Overloading
+5. Non-Overloadable Operators
+6. User-Defined Type Conversions (Casting)
+7. StringBuilder Class
+8. XML Documentation Comments
+
+
+Part 02 : 
+
+### #Agenda 
+
+1. What is the Singleton Pattern?
+2. Analyzing the Code
+3. Execution Flow Analysis
+4. Why Use the Singleton Pattern?
+5. Singleton Implementation Variations
+--------------------------------------------------------------
+Day 08 : 
+
+# #Agenda:
+1. [[Inheritance]]
+2. [[Access Modifiers]]
+3. [[Properties]]
+4. [[Constructors]]
+5. [[Virtual and Override Keywords]]
+6. [[New Keyword (Method Hiding)]]
+7. [[Polymorphism]]
+8. [[ Sealed Keyword]]
+9. [[this Keyword]]
+10. [[base Keyword]]
+11. [[Upcasting(Implicit) and Downcasting(Explicit)]]
+12. [[Method Execution with Polymorphism]]
+
+
+--------------------------------------------------------------
+Day 09 : 
+
+Part 01
+
+# #Agenda:
+
+1. [Interfaces in C#]
+2. [Multiple Interface Implementation]
+3. [Explicit Interface Implementation]
+4. [IComparable Interface]
+5. [IDisposable Interface and Resource Management]
+6. [Finalizers (Destructors)]
+7. [Garbage Collection]
+8. [Using Statement]
+9. [Scope Blocks]
+10. [Properties in C#]
+
+Part 02: 
+
+# #Agenda : 
+1. [Implicit Type Local Variables (var)]
+2. [Readonly vs Const]
+3. [Primary Constructors (C# 12)]
+4. [Deconstructors]
+
+Part 03:
+# #Agenda : 
+
+1. [What are Records?](#what-are-records)
+2. [Record Types](#record-types)
+3. [Positional Records](#positional-records)
+4. [Nominal Records]
+5. [Record Properties](#record-properties)
+6. [Value Equality](#value-equality)
+7. [With Expression](#with-expression)
+8. [Deconstruction](#deconstruction)
+9. [ToString Implementation](#tostring-implementation)
+10. [Inheritance with Records](#inheritance-with-records)
+11. [Record Structs](#record-structs)
+12. [Mutable vs Immutable Records](#mutable-vs-immutable-records)
+13. [Records vs Classes vs Structs](#records-vs-classes-vs-structs)
+14. [Real-World Use Cases](#real-world-use-cases)
+15. [Performance Considerations](#performance-considerations)
+16. [Best Practices](#best-practices)
+--------------------------------------------------------------
+
+Day 10 : 
+
+Part 01 : 
+
+### #Agenda 
+
+1. Removing Elements from List in C# - Without Lambda & References
+
+
+
+--------------------------------------------------------------
+
+Day 11 : 
+
+Part 01 :
+### #Agenda 
+
+1. [What are Delegates?]
+2. [Delegate Declaration & Usage]
+3. [Delegate as Parameter]
+4. [Multicast Delegates]
+5. [Anonymous Methods]
+6. [Lambda Expressions]
+7. [Generic Delegates]
+8. [Built-in Delegates (Func, Action, Predicate)]
+9. [Memory Diagrams]
+10. [Real-World Examples]
+
+
+Part 02 : 
+## ### #Agenda 
+
+1. [What are Events?]
+2. [Events vs Delegates]
+3. [Event Pattern Components]
+4. [EventArgs Class]
+5. [EventHandler <T\> ]
+6. [Publisher-Subscriber Pattern]
+7. [Memory Diagrams]
+8. [Complete Code Walkthrough]
+9. [Event Best Practices]
+
+
+--------------------------------------------------------------
+
+
+
+
+--------------------------------------------------------------

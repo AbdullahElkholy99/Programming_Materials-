@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--primary-font-family);
+
+}
+
+:root {
+
+    /* colors */
+    --primary-color: #FFC233;
+    --secondry-color: #f3ad17;
+
+
+    --primary-font-family: "Dancing Script" cursive;
+    --secondry-font-family: "Open Sans" sans-serif;
+}
+
+.btn {
+    background-color: var(--primary-color);
+    color: #fff;
+    border: none;
+    margin: 10px;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: var(--secondry-color);
+    transform: scale(1.03);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 5px 20px;
+}
+
+a:hover {
+    background-color: var(--secondry-color);
+    transform: scale(1.03);
+}
+
+li {
+    list-style: none;
+}
+
+
+
+/* ------------------ Hero Section : ---------------- */
+
+.hero__section {
+    height: 100vh;
+    background-image: url("Image/imgi_1_hero-bg.jpg");
+    background-size: cover;
+
+    header {
+        .nav__bar {
+            padding: 25px;
+            margin: auto;
+            width: 75%;
+            display: grid;
+            grid-template-columns: 1fr auto auto;
+            align-items: center;
+
+
+            .logo {
+                span {
+                    color: white;
+                    font-family: var(--primary-font-family);
+                    font-size: 32px;
+                    font-weight: 700;
+                }
+            }
+
+            .nav__links {
+                .links {
+                    display: flex;
+
+                    li {
+                        font-size: 25px;
+                        /* margin: 0 10px; */
+                    }
+                }
+            }
+
+            .buttons {
+                margin-left: 60px;
+
+                button {
+                    i {
+                        background-color: #121617;
+                        color: white;
+                        border: none;
+                    }
+                }
+            }
+        }
+
+    }
+
+
+    .hero {
+        margin: 180px auto 0;
+        width: 80%;
+
+        .hero__content {
+            display: none;
+            color: white;
+
+            transform: translateX(120%);
+            opacity: 0;
+            transition: transform 2s ease, opacity 0.8s ease;
+
+            h1 {
+                font-size: 63px;
+                font-weight: 700;
+                margin: 0 0 20px 0;
+
+            }
+
+            p {
+                font-size: 14px;
+                margin: 0 0 20px 0;
+
+            }
+
+            &.acitve {
+                display: block;
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+    }
+
+    .number__content {
+        margin-top: 150px;
+        display: flex;
+        gap: 12px;
+
+        span {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            /* color: white; */
+            background-color: white;
+            opacity: 0.6;
+            transition: 0.3s;
+
+            &.active {
+                background-color: var(--primary-color);
+                opacity: 1;
+            }
+        }
+
+    }
+}
+
