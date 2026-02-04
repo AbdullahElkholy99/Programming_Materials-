@@ -1,0 +1,66 @@
+@{
+    ViewData["Title"] = "Order Confirmation";
+}
+
+<div class="container mt-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card border-success">
+                <div class="card-header bg-success text-white">
+                    <h2 class="mb-0">
+                        <i class="bi bi-check-circle-fill"></i> Order Confirmed!
+                    </h2>
+                </div>
+                <div class="card-body">
+                    <div class="alert alert-success">
+                        <h4 class="alert-heading">Thank you for your order!</h4>
+                        <p>Your order has been successfully placed and is being processed.</p>
+                        <hr>
+                        <p class="mb-0">
+                            <strong>Order ID:</strong> #@ViewBag.OrderId
+                        </p>
+                    </div>
+
+                    <div class="mt-4">
+                        <h5>What happens next?</h5>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <i class="bi bi-envelope"></i> You will receive a confirmation email shortly
+                            </li>
+                            <li class="list-group-item">
+                                <i class="bi bi-box-seam"></i> Your order will be prepared for shipping
+                            </li>
+                            <li class="list-group-item">
+                                <i class="bi bi-truck"></i> You'll get tracking information once shipped
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="mt-4">
+                        <h5>Events Triggered:</h5>
+                        <div class="alert alert-info">
+                            <p class="mb-2">Behind the scenes, the following events were raised:</p>
+                            <ol class="mb-0">
+                                <li><code>OrderPlaced</code> - Logged your order details</li>
+                                <li><code>StockChanged</code> - Updated inventory levels</li>
+                                <li><code>NotificationRequired</code> - Sent confirmation email</li>
+                            </ol>
+                        </div>
+                    </div>
+
+                    <div class="mt-4 d-flex gap-2">
+                        <a asp-action="Index" class="btn btn-primary">
+                            <i class="bi bi-house"></i> Back to Products
+                        </a>
+                        <a asp-action="Logs" class="btn btn-secondary">
+                            <i class="bi bi-journal-text"></i> View Event Logs
+                        </a>
+                        <a asp-action="Emails" class="btn btn-secondary">
+                            <i class="bi bi-envelope"></i> View Emails
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

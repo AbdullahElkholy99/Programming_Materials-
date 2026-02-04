@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "8gtfR/oAZlc=",
+  "success": true,
+  "projectFilePath": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\EventAndDelegate.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ezzat\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\9.0.12\\microsoft.windowsdesktop.app.ref.9.0.12.nupkg.sha512",
+    "C:\\Users\\ezzat\\.nuget\\packages\\microsoft.netcore.app.ref\\9.0.12\\microsoft.netcore.app.ref.9.0.12.nupkg.sha512",
+    "C:\\Users\\ezzat\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\9.0.12\\microsoft.aspnetcore.app.ref.9.0.12.nupkg.sha512",
+    "C:\\Users\\ezzat\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\9.0.12\\microsoft.netcore.app.host.win-x64.9.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

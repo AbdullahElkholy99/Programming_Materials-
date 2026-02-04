@@ -1,0 +1,264 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|h:\\05_iti\\9 months\\10_c#\\project\\eventanddelegate\\eventanddelegate\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|solutionrelative:eventanddelegate\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|h:\\05_iti\\9 months\\10_c#\\project\\eventanddelegate\\eventanddelegate\\views\\home\\emails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|solutionrelative:eventanddelegate\\views\\home\\emails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|h:\\05_iti\\9 months\\10_c#\\project\\eventanddelegate\\eventanddelegate\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|solutionrelative:eventanddelegate\\service\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|h:\\05_iti\\9 months\\10_c#\\project\\eventanddelegate\\eventanddelegate\\service\\loggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|solutionrelative:eventanddelegate\\service\\loggingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|h:\\05_iti\\9 months\\10_c#\\project\\eventanddelegate\\eventanddelegate\\service\\inventorymonitorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|solutionrelative:eventanddelegate\\service\\inventorymonitorservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|h:\\05_iti\\9 months\\10_c#\\project\\eventanddelegate\\eventanddelegate\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|solutionrelative:eventanddelegate\\service\\emailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|h:\\05_iti\\9 months\\10_c#\\project\\eventanddelegate\\eventanddelegate\\events\\eventsubscriptionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|solutionrelative:eventanddelegate\\events\\eventsubscriptionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|h:\\05_iti\\9 months\\10_c#\\project\\eventanddelegate\\eventanddelegate\\events\\eventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|solutionrelative:eventanddelegate\\events\\eventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|h:\\05_iti\\9 months\\10_c#\\project\\eventanddelegate\\eventanddelegate\\models\\recordsandeventsexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|solutionrelative:eventanddelegate\\models\\recordsandeventsexample.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|h:\\05_iti\\9 months\\10_c#\\project\\eventanddelegate\\eventanddelegate\\models\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|solutionrelative:eventanddelegate\\models\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|h:\\05_iti\\9 months\\10_c#\\project\\eventanddelegate\\eventanddelegate\\models\\filename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|solutionrelative:eventanddelegate\\models\\filename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|h:\\05_iti\\9 months\\10_c#\\project\\eventanddelegate\\eventanddelegate\\models\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|solutionrelative:eventanddelegate\\models\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|h:\\05_iti\\9 months\\10_c#\\project\\eventanddelegate\\eventanddelegate\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|solutionrelative:eventanddelegate\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|h:\\05_iti\\9 months\\10_c#\\project\\eventanddelegate\\eventanddelegate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E36B5079-D8A7-4CA7-93ED-5D7F7C1D8A3C}|EventAndDelegate\\EventAndDelegate.csproj|solutionrelative:eventanddelegate\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Emails.cshtml",
+              "DocumentMoniker": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Views\\Home\\Emails.cshtml",
+              "RelativeDocumentMoniker": "EventAndDelegate\\Views\\Home\\Emails.cshtml",
+              "ToolTip": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Views\\Home\\Emails.cshtml",
+              "RelativeToolTip": "EventAndDelegate\\Views\\Home\\Emails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-04T05:53:28.578Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoggingService.cs",
+              "DocumentMoniker": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Service\\LoggingService.cs",
+              "RelativeDocumentMoniker": "EventAndDelegate\\Service\\LoggingService.cs",
+              "ToolTip": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Service\\LoggingService.cs",
+              "RelativeToolTip": "EventAndDelegate\\Service\\LoggingService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAywBkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T05:50:12.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "InventoryMonitorService.cs",
+              "DocumentMoniker": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Service\\InventoryMonitorService.cs",
+              "RelativeDocumentMoniker": "EventAndDelegate\\Service\\InventoryMonitorService.cs",
+              "ToolTip": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Service\\InventoryMonitorService.cs",
+              "RelativeToolTip": "EventAndDelegate\\Service\\InventoryMonitorService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T05:49:07.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmailService.cs",
+              "DocumentMoniker": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Service\\EmailService.cs",
+              "RelativeDocumentMoniker": "EventAndDelegate\\Service\\EmailService.cs",
+              "ToolTip": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Service\\EmailService.cs",
+              "RelativeToolTip": "EventAndDelegate\\Service\\EmailService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T05:48:20.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventArgs.cs",
+              "DocumentMoniker": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Events\\EventArgs.cs",
+              "RelativeDocumentMoniker": "EventAndDelegate\\Events\\EventArgs.cs",
+              "ToolTip": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Events\\EventArgs.cs",
+              "RelativeToolTip": "EventAndDelegate\\Events\\EventArgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T05:45:57.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EventSubscriptionManager.cs",
+              "DocumentMoniker": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Events\\EventSubscriptionManager.cs",
+              "RelativeDocumentMoniker": "EventAndDelegate\\Events\\EventSubscriptionManager.cs",
+              "ToolTip": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Events\\EventSubscriptionManager.cs",
+              "RelativeToolTip": "EventAndDelegate\\Events\\EventSubscriptionManager.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T05:45:54.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "OrdersController.cs",
+              "DocumentMoniker": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Controllers\\OrdersController.cs",
+              "RelativeDocumentMoniker": "EventAndDelegate\\Controllers\\OrdersController.cs",
+              "ToolTip": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Controllers\\OrdersController.cs",
+              "RelativeToolTip": "EventAndDelegate\\Controllers\\OrdersController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAvwCQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T18:13:07.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FileName.cs",
+              "DocumentMoniker": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Models\\FileName.cs",
+              "RelativeDocumentMoniker": "EventAndDelegate\\Models\\FileName.cs",
+              "ToolTip": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Models\\FileName.cs",
+              "RelativeToolTip": "EventAndDelegate\\Models\\FileName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T05:43:27.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Service\\OrderService.cs",
+              "RelativeDocumentMoniker": "EventAndDelegate\\Service\\OrderService.cs",
+              "ToolTip": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Service\\OrderService.cs",
+              "RelativeToolTip": "EventAndDelegate\\Service\\OrderService.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAIwDgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T18:15:53.417Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RecordsAndEventsExample.cs",
+              "DocumentMoniker": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Models\\RecordsAndEventsExample.cs",
+              "RelativeDocumentMoniker": "EventAndDelegate\\Models\\RecordsAndEventsExample.cs",
+              "ToolTip": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Models\\RecordsAndEventsExample.cs",
+              "RelativeToolTip": "EventAndDelegate\\Models\\RecordsAndEventsExample.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAywBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T05:42:37.109Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Models\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "EventAndDelegate\\Models\\ProductViewModel.cs",
+              "ToolTip": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Models\\ProductViewModel.cs",
+              "RelativeToolTip": "EventAndDelegate\\Models\\ProductViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T05:42:09.262Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderViewModel.cs",
+              "DocumentMoniker": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Models\\OrderViewModel.cs",
+              "RelativeDocumentMoniker": "EventAndDelegate\\Models\\OrderViewModel.cs",
+              "ToolTip": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Models\\OrderViewModel.cs",
+              "RelativeToolTip": "EventAndDelegate\\Models\\OrderViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T05:41:54.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Program.cs",
+              "RelativeDocumentMoniker": "EventAndDelegate\\Program.cs",
+              "ToolTip": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Program.cs",
+              "RelativeToolTip": "EventAndDelegate\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T18:05:46.8Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "EventAndDelegate\\Controllers\\HomeController.cs",
+              "ToolTip": "H:\\05_ITI\\9 Months\\10_C#\\Project\\EventAndDelegate\\EventAndDelegate\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "EventAndDelegate\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAYwAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T17:56:38.765Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

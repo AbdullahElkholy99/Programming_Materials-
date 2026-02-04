@@ -1,0 +1,95 @@
+@model ProductViewModel
+@{
+    ViewData["Title"] = Model.Name;
+}
+
+<div class="container mt-4">
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a asp-action="Index">Products</a></li>
+            <li class="breadcrumb-item active">@Model.Name</li>
+        </ol>
+    </nav>
+
+    <div class="row">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-body">
+                    <h1 class="card-title">@Model.Name</h1>
+                    
+                    <div class="my-4">
+                        <h3 class="text-primary">@Model.Price</h3>
+                    </div>
+
+                    <div class="mb-3">
+                        <strong>Availability:</strong>
+                        <span class="badge @(Model.StockStatus.Contains("Out") ? "bg-danger" : "bg-success")">
+                            @Model.StockStatus
+                        </span>
+                    </div>
+
+                    <div class="mb-4">
+                        <p class="text-muted">
+                            This is a demonstration product using C# Records and Events.
+                            When you place an order, multiple events are triggered automatically.
+                        </p>
+                    </div>
+
+                    @if (!Model.StockStatus.Contains("Out"))
+                    {
+                        <a asp-action="PlaceOrder" class="btn btn-success btn-lg">
+                            <i class="bi bi-cart-plus"></i> Order Now
+                        </a>
+                    }
+                    else
+                    {
+                        <button class="btn btn-secondary btn-lg" disabled>
+                            <i class="bi bi-x-circle"></i> Out of Stock
+                        </button>
+                    }
+                    
+                    <a asp-action="Index" class="btn btn-outline-secondary btn-lg">
+                        <i class="bi bi-arrow-left"></i> Back to Products
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="card bg-light">
+                <div class="card-body">
+                    <h5 class="card-title">Product Information</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2">
+                            <strong>Product ID:</strong> @Model.Id
+                        </li>
+                        <li class="mb-2">
+                            <strong>Name:</strong> @Model.Name
+                        </li>
+                        <li class="mb-2">
+                            <strong>Price:</strong> @Model.Price
+                        </li>
+                        <li class="mb-2">
+                            <strong>Stock:</strong> @Model.StockStatus
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card mt-3">
+                <div class="card-body">
+                    <h6 class="card-title">Technical Notes</h6>
+                    <p class="small text-muted">
+                        This product data is stored using a C# <strong>record</strong>:
+                    </p>
+                    <pre class="small"><code>record Product(
+    int Id, 
+    string Name, 
+    decimal Price, 
+    int Stock
+)</code></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

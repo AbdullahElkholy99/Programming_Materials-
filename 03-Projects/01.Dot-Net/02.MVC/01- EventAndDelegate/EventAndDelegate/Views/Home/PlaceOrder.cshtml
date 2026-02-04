@@ -1,0 +1,62 @@
+@model OrderViewModel
+@{
+    ViewData["Title"] = "Place Order";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">Place an Order</h1>
+
+    <div class="row">
+        <div class="col-md-6">
+            <form asp-action="PlaceOrder" method="post">
+                <div class="mb-3">
+                    <label asp-for="CustomerEmail" class="form-label">Email Address</label>
+                    <input asp-for="CustomerEmail" class="form-control" placeholder="your@email.com" />
+                    <span asp-validation-for="CustomerEmail" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="ProductId" class="form-label">Select Product</label>
+                    <select asp-for="ProductId" class="form-select">
+                        <option value="">-- Choose a product --</option>
+                        @foreach (var product in ViewBag.Products as List<Product>)
+                        {
+                            <option value="@product.Id">
+                                @product.Name - $@product.Price (@product.Stock in stock)
+                            </option>
+                        }
+                    </select>
+                    <span asp-validation-for="ProductId" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="Quantity" class="form-label">Quantity</label>
+                    <input asp-for="Quantity" type="number" class="form-control" min="1" value="1" />
+                    <span asp-validation-for="Quantity" class="text-danger"></span>
+                </div>
+
+                <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
+
+                <button type="submit" class="btn btn-primary">Place Order</button>
+                <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+            </form>
+        </div>
+
+        <div class="col-md-6">
+            <div class="alert alert-info">
+                <h5>How it works:</h5>
+                <ol>
+                    <li>When you place an order, multiple <strong>events</strong> are triggered</li>
+                    <li><strong>OrderPlaced</strong> event logs the order details</li>
+                    <li><strong>StockChanged</strong> event updates inventory and checks for low stock</li>
+                    <li><strong>NotificationRequired</strong> event sends confirmation email</li>
+                    <li>All services use <strong>C# records</strong> for immutable data</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

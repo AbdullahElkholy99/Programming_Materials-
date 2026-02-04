@@ -1,0 +1,50 @@
+@model List<ProductViewModel>
+@{
+    ViewData["Title"] = "Products";
+}
+
+<div class="container mt-4">
+    <h1 class="mb-4">Available Products</h1>
+
+    @if (TempData["SuccessMessage"] != null)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            @TempData["SuccessMessage"]
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        </div>
+    }
+
+    <div class="row">
+        @foreach (var product in Model)
+        {
+            <div class="col-md-4 mb-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">@product.Name</h5>
+                        <p class="card-text">
+                            <strong>Price:</strong> @product.Price<br/>
+                            <strong>Status:</strong> 
+                            <span class="badge @(product.StockStatus.Contains("Out") ? "bg-danger" : "bg-success")">
+                                @product.StockStatus
+                            </span>
+                        </p>
+                        <div class="d-flex gap-2">
+                            <a asp-action="ProductDetails" asp-route-id="@product.Id" 
+                               class="btn btn-primary btn-sm">Details</a>
+                            @if (!product.StockStatus.Contains("Out"))
+                            {
+                                <a asp-action="PlaceOrder" 
+                                   class="btn btn-success btn-sm">Order</a>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <div class="mt-4">
+        <a asp-action="Logs" class="btn btn-secondary">View Logs</a>
+        <a asp-action="Emails" class="btn btn-secondary">View Emails</a>
+    </div>
+</div>
