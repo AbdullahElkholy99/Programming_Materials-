@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- -------------------------Styles -------------------------------------- -->
+
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- googleapis -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Reset styles -->
+    <link rel="stylesheet" href="../Styles/normalize.css" />
+
+    <!-- navbar style -->
+    <link rel="stylesheet" href="../Styles/nav-bar.css" />
+
+    <!-- footer style -->
+    <link rel="stylesheet" href="../Styles/footer.css" />
+
+    <!-- casual section style -->
+    <link rel="stylesheet" href="../Styles/casual-details.css" />
+
+    <!-- cart section style -->
+    <link rel="stylesheet" href="../Styles/cart.css" />
+
+    <!-- -------------------------Scripts -------------------------------------- -->
+    <!-- navbar scripts -->
+    <script src="../Scripts/nav-bar.js" defer></script>
+
+    <!-- script scripts -->
+    <!-- <script src="../Scripts/script.js" defer></script> -->
+    <!-- script scripts -->
+    <script src="../Scripts/casual-details.js" defer></script>
+  </head>
+
+  <body>
+    <!-- ------------------------- Start Nav Bar : -------------------------------------- -->
+    <header class="nav-bar">
+      <!-- Announcement Bar
+            Promo Bar
+            Top Notification Bar -->
+      <div class="top-nav-bar">
+        <div class="announcement">
+          <span>
+            Ramadan Sale! Up to 50% off —
+            <a href="#">Shop Now</a>
+          </span>
+        </div>
+
+        <span class="close-bar">✕</span>
+      </div>
+
+      <div class="main-nav-bar">
+        <!-- Toggle -->
+        <button class="toggle-bar" aria-label="menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <!-- Logo -->
+        <div class="nav-bar-logo">
+          <a href="#">SHOP.CO</a>
+        </div>
+
+        <!-- Links -->
+        <nav class="nav-bar-links">
+          <ul class="nav-links">
+            <li><a href="../HTML/index.html" class="active">Home</a></li>
+
+            <li class="dropdown">
+              <a class="dropdown-toggle">
+                Shop
+                <i class="fa-solid fa-angle-down"></i>
+              </a>
+
+              <ul class="dropdown-menu">
+                <li><a href="../HTML/Casual.html" >Casual</a></li>
+                <li><a href="#">Clothes</a></li>
+                <li><a href="#">Shoes</a></li>
+              </ul>
+            </li>
+
+            <li><a href="#new-arrivals">New Arrivals</a></li>
+          </ul>
+        </nav>
+
+        <!-- Search -->
+        <div class="nav-bar-search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          <input type="text" placeholder="Search products" />
+        </div>
+
+        <!-- Icons -->
+        <div class="nav-bar-icons">
+          <div class="icon">
+            <button id="openCart">
+              <i class="fa-solid fa-cart-shopping"></i>
+              <span id="NoItems">0</span>
+            </button>
+          </div>
+
+          <div class="icon">
+            <i class="fa-solid fa-user"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ------------------------- End Nav Bar : -------------------------------------- -->
+
+    <!-- ------------------------- Start Product Details Section -------------------------------------- -->
+    <section class="product-details"></section>
+    <!-- ------------------------- End Product Details Section -------------------------------------- -->
+
+    <!-- ------------------------- Start Product Details Section -------------------------------------- -->
+    <section class="product-reviews">
+      <!-- filters type -->
+      <div class="filter-types">
+        <div id="productDetails">Product Details</div>
+        <div id="ratingReviews ">Rating & Reviews</div>
+        <div id="fAQs">FAQs</div>
+      </div>
+
+      <!-- product details sections -->
+      <div class="product-details-filter"></div>
+
+      <!-- rating & reviews sections -->
+      <div class="rating-reviews-filter">
+        <div class="rating-reviews-header">
+          <div class="review-title">All Review <span id="allReviews"></span></div>
+
+          <div class="review-filters">
+            <button class="btn">
+              <i class="fa-solid fa-arrow-up-short-wide"></i>
+            </button>
+
+            <select name="All" class="btn" id="filter-review">
+              <option value="latest">Latest</option>
+              <option value="oldest">Oldest</option>
+            </select>
+            <button class="btn">
+              Write A Review
+              <i class="fa-solid fa-keyboard"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- review-cards -->
+        <div class="review-cards">
+          <!-- will loaded here all reviews -->
+          
+        </div>
+      </div>
+
+      <!-- product details sections -->
+      <div class="fAQs-filter"></div>
+    </section>
+    <!-- ------------------------- End Product Details Section -------------------------------------- -->
+
+    <!-- ------------------------- start Footer -------------------------------------- -->
+    <footer style="margin-top: 5%">
+      <!-- subscribe -->
+      <div class="subscribe">
+        <h2>STAY UPTO DATE ABOUT<br />OUR LATEST OFFERS</h2>
+        <div class="subscribe-filds">
+          <div class="input-email">
+            <input type="email" placeholder="Enter your email address" />
+            <i class="fa-solid fa-envelope-open-text"></i>
+          </div>
+          <button id="subscribe" onclick="sendSubscribe()">
+            Subscribe To Newsletter
+          </button>
+        </div>
+      </div>
+
+      <!-- row -->
+      <div class="footer-links">
+        <div class="links">
+          <h3>SHOP.CO</h3>
+          <span
+            >Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Repudiandae, laborum.</span
+          >
+          <div class="social-media">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-x-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-square-github"></i>
+          </div>
+        </div>
+
+        <div class="links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Works</a></li>
+            <li><a href="#">Career</a></li>
+          </ul>
+        </div>
+        <div class="links">
+          <h4>Help</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Works</a></li>
+            <li><a href="#">Career</a></li>
+          </ul>
+        </div>
+        <div class="links">
+          <h4>FAQ</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Works</a></li>
+            <li><a href="#">Career</a></li>
+          </ul>
+        </div>
+        <div class="links">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Works</a></li>
+            <li><a href="#">Career</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- row -->
+      <div class="copyrights">
+        <div class="copyright">
+          <h5>Shop.co © 2000–2026. All Rights Reserved</h5>
+        </div>
+
+        <!-- payment-method -->
+        <div class="payment-methods">
+          <i class="fa-brands fa-cc-visa"></i>
+          <i class="fa-brands fa-cc-paypal"></i>
+          <i class="fa-brands fa-apple-pay"></i>
+          <i class="fa-brands fa-google-pay"></i>
+        </div>
+      </div>
+    </footer>
+    <!-- ------------------------- End Footer -------------------------------------- -->
+    <div class="overlay" id="overlay"></div>
+
+    <div class="my-cart" id="cart">
+      <!-- cart title -->
+      <div class="cart-header">
+        <h2 class="cart-title">Your Cart</h2>
+        <i class="fa-regular fa-circle-xmark"></i>
+      </div>
+      <!-- NEW WRAPPER -->
+      <div class="cart-body">
+        <!-- order items -->
+        <div class="order-items">
+          <!-- order-item -->
+        </div>
+
+        <!-- order-summery -->
+        <div class="order-summery">
+          <h4>Order Summery</h4>
+
+          <!-- sub total -->
+          <div class="sub-total">
+            <span>Sub Total</span>
+            <span class="sub-total-value">$565</span>
+          </div>
+
+          <!-- discount   -->
+          <div class="discount">
+            <span>Discount (-10%)</span>
+            <span class="discount-value">-$565</span>
+          </div>
+
+          <!-- delivery fee -->
+          <div class="delivery-fee">
+            <span>Delivery Fee</span>
+            <span class="fee">$15</span>
+          </div>
+          <div class="divider-cart"></div>
+
+          <!-- sub total -->
+          <div class="total">
+            <span>Total</span>
+            <span class="total-value">$465</span>
+          </div>
+
+          <!-- apply promo -->
+          <div class="apply-promo">
+            <div class="promo">
+              <input type="text" placeholder="Add promo code" />
+              <i class="fa-solid fa-tags"></i>
+            </div>
+            <button class="apply-promo-btn">Apply</button>
+          </div>
+
+          <button class="apply-promo-btn pay">
+            Go To Checkout
+            <i class="fa-brands fa-amazon-pay"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- ------------------------- Start toast-------------------------------------- -->
+    <div id="toast-container"></div>
+    <!-- ------------------------- End toast-------------------------------------- -->
+  </body>
+</html>

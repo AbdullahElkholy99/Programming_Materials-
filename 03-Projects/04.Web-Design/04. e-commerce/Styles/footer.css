@@ -1,0 +1,294 @@
+/******************start footer*********************/
+
+footer {
+    background: #ecedf1;
+    position: relative;
+}
+
+/* row */
+.subscribe {
+    position: relative;
+    top: -30px;
+
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+
+    padding: 50px 70px;
+    background: black;
+    color: white;
+    border-radius: 20px;
+}
+
+.subscribe h2 {
+    font-size: 30px;
+    line-height: 1.4;
+}
+
+/* fields container */
+.subscribe-filds {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+/* email input wrapper */
+.input-email {
+    position: relative;
+}
+
+/* input */
+.input-email input {
+    width: 280px;
+    height: 45px;
+    border-radius: 30px;
+    border: none;
+    padding: 0 15px 0 45px;
+    font-size: 14px;
+}
+
+/* icon */
+.input-email i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #777;
+}
+
+/* button */
+.subscribe-filds button {
+    height: 45px;
+    padding: 0 22px;
+    border: none;
+    border-radius: 30px;
+    background: darkviolet;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.subscribe-filds button:hover {
+    background: #6a0dad;
+}
+
+
+
+/* footer-links */
+.footer-links {
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-flow: column;
+    gap: 40px;
+    padding: 60px 0;
+}
+
+/* links column */
+.links h3,
+.links h4 {
+    margin-bottom: 15px;
+}
+
+.links span {
+    display: block;
+    color: #777;
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+/* list */
+.links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.links ul li {
+    margin-bottom: 10px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+    transition: .3s;
+}
+
+.links ul li a:hover {
+    color: darkviolet;
+}
+
+/* social media */
+.social-media {
+    display: flex;
+    gap: 10px;
+}
+
+.social-media i {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: #f3f3f3;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.social-media i:hover {
+    background: darkviolet;
+    color: white;
+}
+
+/* copyrights */
+/* copyrights */
+.copyrights {
+    width: 85%;
+    margin: auto;
+    padding: 25px 0;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-top: 1px solid #e5e5e5;
+}
+
+/* copyright text */
+.copyright h5 {
+    font-size: 14px;
+    color: #777;
+    font-weight: 400;
+}
+
+/* payment methods */
+.payment-methods {
+    display: flex;
+    gap: 15px;
+}
+
+.payment-methods i {
+    font-size: 28px;
+    color: #555;
+    transition: .3s;
+    cursor: pointer;
+}
+
+.payment-methods i:hover {
+    color: darkviolet;
+    transform: translateY(-2px);
+}
+
+
+/* responsive */
+
+@media (max-width: 1000px) {
+
+    .subscribe {
+        flex-direction: column;
+        text-align: center;
+        gap: 25px;
+        padding: 40px 40px;
+    }
+
+    .subscribe h2 {
+        font-size: 26px;
+    }
+
+    .subscribe-filds {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .input-email input {
+        width: 250px;
+    }
+
+    /* footer links */
+    .footer-links {
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-flow: row;
+        gap: 30px;
+    }
+
+}
+
+@media (max-width: 750px) {
+
+    .subscribe {
+        padding: 35px 30px;
+    }
+
+    .subscribe-filds {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .input-email input {
+        width: 100%;
+    }
+
+    .subscribe-filds button {
+        width: 100%;
+    }
+
+    /* footer links */
+    .footer-links {
+        grid-template-columns: repeat(2, 1fr);
+        text-align: center;
+    }
+
+    .social-media {
+        justify-content: center;
+    }
+
+    .subscribe-filds button {
+        width: 71%;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .subscribe {
+        top: -20px;
+        padding: 30px 20px;
+    }
+
+    .subscribe h2 {
+        font-size: 22px;
+    }
+
+    /* footer links */
+    .footer-links {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .links span {
+        max-width: 300px;
+        margin: auto;
+        margin-bottom: 15px;
+    }
+
+    /* copyrights */
+    .copyrights {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .subscribe-filds button {
+        width: 71%;
+    }
+}
+
+
+
+/******************end footer*********************/

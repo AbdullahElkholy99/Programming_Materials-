@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+
+    <!-- googleapis -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../Styles/cart.css">
+</head>
+<body>
+    
+     <!-- ------------------------- Start cart-------------------------------------- -->
+   
+     <button onclick="openCart()" class="btn" id="openCartBtn">Open Cart</button>
+   
+   <div class="overlay" id="overlay"></div>
+
+     <div class="cart" id="cart">
+      <!-- cart title -->
+       <div class="cart-header">
+         <h2 class="cart-title">Your Cart</h2>
+<i class="fa-regular fa-circle-xmark"></i>
+       </div>
+      
+      <!-- order items -->
+      <div class="order-items">
+
+        <!-- order-item -->
+        <div class="order-item">
+
+          <!-- image -->
+          <div class="item-image">
+            <img src="../Images/hero-image.png" alt="">
+          </div>
+
+          <!-- item info -->
+          <div class="item-info">
+
+            <!-- item header -->
+            <div class="item-header">
+              <span >Checkered Shirt</span>
+              <i class="fa-solid fa-trash"></i>
+            </div>
+
+            <!-- item content -->
+            <div class="item-content">
+              <div class="price"><span>Price:</span> $50</div>
+              <div class="color">
+                <span>Color:</span>
+                White
+              </div>
+            </div>
+
+            <!-- item footer -->
+            <div class="item-footer">
+              <div class="item-price">$145</div>
+              <div class="item-quantity">
+                <i class="fa-solid fa-minus"></i>
+                1
+                <i class="fa-solid fa-plus"></i>
+              </div>
+            </div>
+          </div>
+          
+          <div class="divider"></div>
+        </div>
+
+
+
+        
+      </div>
+    
+      <!-- order-summery -->
+      <div class="order-summery">
+        <h4>Order Summery</h4>
+
+        <!-- sub total -->
+         <div class="sub-total">
+          <span>Sub Total</span>
+          <span>$565</span>
+         </div>
+
+        <!-- discount   -->
+         <div class="discount">
+          <span>Discount (-20%)</span>
+          <span class="discount-value">-$565</span>
+         </div>
+
+
+        <!-- delivery fee -->
+         <div class="delivery-fee">
+          <span>Delivery Fee</span>
+          <span>$15</span>
+         </div>
+         <div class="divider-cart"></div>
+
+        <!-- sub total -->
+         <div class="total">
+          <span>Total</span>
+          <span>$465</span>
+         </div>
+
+         <!-- apply promo -->
+         <div class="apply-promo">
+          <div class="promo">
+            <input type="text" placeholder="Add promo code">
+             <i class="fa-regular fa-tag"></i>
+          </div>
+          <button class="btn">Apply</button>
+         </div>
+         
+          <button class="btn">
+            Go To Checkout
+            <i class="fa-brands fa-amazon-pay"></i>
+          </button>
+
+
+
+
+      </div>
+
+    </div>
+    <!-- ------------------------- End cart-------------------------------------- -->
+
+    <script>
+      const openCartBtn = document.getElementById("openCartBtn")
+      const cartDiv = document.getElementById("cart")
+   const overlay = document.getElementById("overlay");
+
+      openCartBtn.addEventListener("click" , ()=>{
+        cartDiv.classList.toggle("show")
+          overlay.classList.toggle("show");
+       })
+      // اقفل لما تضغط برا
+    overlay.addEventListener("click", () => {
+        cart.classList.remove("show");
+        overlay.classList.remove("show");
+    });
+      
+   
+   
+   
+    </script>
+    
+
+</body>
+</html>
